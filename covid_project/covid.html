@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="covid.css" />
+    <link rel="icon" href="https://biorender.com/img/covid/vaccine.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Search Your Slot</title>
+  </head>
+  <body>
+    <div class="searchBox">
+      <input type="text" placeholder="enter your area pincode" id="input" />
+      <button>
+        <img
+          src="https://cdn3.iconfinder.com/data/icons/flaticons-1/24/flaticon_search-512.png"
+          alt="search"
+        />
+      </button>
+    </div>
+    <div class="cards"></div>
+
+    <div class="opening">
+      <h1></h1>
+      <img src=" " alt="">
+    </div>
+
+    <div>
+  <img src="covid3.jpeg" height="550px" width="100%">
+  <div class="card-img-overlay text-white">
+    <nav class="navbar">
+    <img src="logo.png" width="60px" height="60px" width="150px">
+    </div>
+    </div>
+
+
+    </nav>
+
+    <h1 class="name"> Search Your Slot </h1>
+    <br>
+    <p></p>
+    <br>
+    
+    <div class="search">
+      <div class="searchtxt">
+        <input type="text" placeholder="Search" class="search">
+      </div>
+        <img src="search.png" width="30px" height="30px " class="searchimg">
+    </div>
+  </div>
+</div>
+
+<br><br><br><br>
+<div class="card-deck">
+  <div class="card" id="card1">
+    <img class="card-img-top" src="covid1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Vaccine info </h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <a href="info.html" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <br><br>
+  <div class="card" id="card2">
+    <img class="card-img-top" src="covid1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"> Symptoms </h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <a href="sym.html" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <br><br>
+  <div class="card" id="card3">
+    <img class="card-img-top" src="covid1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Deal the symptoms </h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <a href="symptoms.html" class="btn btn-primary">Go somewhere</a>
+      <br><br>
+    </div>
+  </div>
+  </div>
+</div>
+
+<br><br><br>
+
+      <div class="container">
+        <h1 class="text-center mt-5">COVID-19 Live Data Updates.!!</h1>
+
+        <br /><br />
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Total Cases</th>
+              <th>Total Deaths</th>
+              <th>Total Recovered</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="success" id="data"></tr>
+          </tbody>
+        </table>
+      </div>
+      <br />
+      <button
+        onclick="refreshData()"
+        class="text-center btn btn-success"
+        style="margin-right: 40%; margin-left: 40%"
+      >
+        Click to update data
+      </button>
+    </div>
+
+    <br />
+    <br />
+
+
+<br><br><br>
+<div class="bg-dark text-white">
+  <div class="footer">
+  <ul style="list-style-type:none">
+    <li>Alisha Anand</li>
+    <li>Anusha Maiti</li>
+    <li>Ashana</li>
+    <li>Astha Priya</li>
+  </div>
+  <center><p style='background-color:#1a1a1a'>Copyright @SearchYourSlot</p></center>
+</div>
+
+<script src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js"></script>
+
+    <script src="./covid.js"></script>
+  </body>
+</html>
