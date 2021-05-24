@@ -1,1 +1,147 @@
+.navbar{
+background: transparent;
+border-bottom: 2px solid rgb(116, 116, 117);
+width: 100%;
+height: 80px;
+}
+
+.name{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.search{
+    font-size: 25px;
+    background: transparent;
+    margin: auto;
+    margin-top: -25px;
+    position: relative;
+    width: 300px;
+    height: 42px;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+
+
+.searchimg{
+    margin-top: -85px;
+    margin-left: 90%;
+    margin-right: 45%;
+}
+
+#card1{
+    background: #fff;
+    display: flex;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition : 0.5s ease-in-out;
+}
+
+#card1:hover{
+    transform: translateY(20px);
+}
+
+#card1:before{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,rgba(236, 240, 239, 0.5),rgb(18, 18, 19));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity:0;
+}
+
+#card1:hover:before{
+    opacity: 0.5;
+}
+
+#card2{
+    background: #fff;
+    display: flex;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition : 0.5s ease-in-out;
+}
+
+#card2:hover{
+    transform: translateY(20px);
+}
+
+#card2:before{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,rgba(236, 240, 239, 0.5),rgb(18, 18, 19));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity:0;
+}
+
+#card2:hover:before{
+    opacity: 0.5;
+}
+
+#card3{
+    background: #fff;
+    display: flex;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition : 0.5s ease-in-out;
+}
+
+#card3:hover{
+    transform: translateY(20px);
+}
+
+#card3:before{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,rgba(236, 240, 239, 0.5),rgb(18, 18, 19));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity:0;
+}
+
+#card3:hover:before{
+    opacity: 0.5;
+}
+
+.card-body{
+    position: relative;
+    z-index: 3;
+    color: #000;
+    opacity: 1;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+
+.reg{
+    float: right;
+    border:3px solid white;
+    border-radius: 10%;
+    padding:5px 10px;
+    margin-right: 90px;
+    font-size: 25px;
+}
+
+.reg_box{
+    color: white;
+}
+
+.getpincode{
+    margin-left: 50%;
+}
+
+
+
 
