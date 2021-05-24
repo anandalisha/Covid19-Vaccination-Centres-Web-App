@@ -1,1 +1,64 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registrstion Form</title>
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: rgb(225, 225, 241);
+        }
+        .form_wrap{
+            width: 380px;
+            background: #3e3d3d;
+            padding: 48px 20px;
+            box-sizing: border-box;
+            position: fixed;
+            left: 35%;
+            top: 30%;
+            translate: (-50%,-50%);
+        }
+        h1{
+            text-align: center;
+            color: rgb(99, 99, 150);
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+        input{
+            width: 100%;
+            background: none;
+            border: 1px solid #fff;
+            border-radius: 3px;
+            padding: 6px 15px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #fff;
+        }
+        input[type="button"]{
+            background:rgb(100, 100, 185);
+            border: 0;
+            cursor: pointer;
+            color: #3e3d3d;
+        }
+        input[type="button"]:hover{
+            background: #6c6d68;
+            transition: .6s;
+        }
+        ::placeholder{color: #fff;}
+    </style>
+    <body>
+        <div class="form_wrap">
+            <form>
+                <h1>REGISTER</h1>
+                <input type="email" placeholder="Email">
+                <input type="tel" pattern="[0-9]{10}" placeholder="9996669996">
+                <input type="text" placeholder="Pin-Code">
+                <input type="button" value="Register">
+            </form> 
+        </div>   
+    </body>
+</html>
