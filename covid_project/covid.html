@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style_index.css">  
+    <script src="script.js"></script>
+    <title>Search Vaccine Slot</title>
+</head>
+<body> 
+<div>
+    <img src="covid3.jpeg" height="550px" width="100%">
+        <div class="card-img-overlay text-white">
+           <nav class="navbar">
+              <img src="logo.png" width="60px" height="60px" width="150px">
+              <div class="btn btn-outline-primary">
+                  <a href="register_form.html" class="reg_box">Register</a>
+              </div>
+           </nav>
+           <h1 class="name"> Search Your Slot </h1>
+          <center><p>This is a one stop page for all vaccination info </p></center>
+          <br>
+          <br>
+          <div class="search">
+            <div class="searchtxt">
+              <input type="text" placeholder="Search" class="search" id="pincode">
+            </div>
+              <img src="search.png" width="30px" height="30px " class="searchimg">
+          </div>
+            <button id="sea" class="btn btn-outline-success " onclick="getPinCode()">Search</button>
+          </div>
+          
+        </div>
+        
 
+      </div>
+
+<h1>Slots Available are </h1>
+<!-- table for showing data -->
+<div id="slotTable">
+  
+</div>
+
+
+<br><br><br><br>
+<div class="card-deck">
+  <div class="card" id="card1">
+    <img class="card-img-top" src="covid1.jpeg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Vaccine info </h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <a href="info.html" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <br><br>
+  <div class="card" id="card2">
+    <img class="card-img-top" src="covid1.jpeg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"> Symptoms </h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <a href="sym.html" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <br><br>
+  <div class="card" id="card3">
+    <img class="card-img-top" src="covid1.jpeg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Deal the symptoms </h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <a href="symptoms.html" class="btn btn-primary">Go somewhere</a>
+      <br><br>
+    </div>
+  </div>
+  </div>
+</div>
+<br><br><br>
+<div class="bg-dark text-white">
+  <div class="footer">
+  <ul style="list-style-type:none">
+    <li>Alisha Anand</li>
+    <li>Anusha Maiti</li>
+    <li>Ashana</li>
+    <li>Astha Priya</li>
+  </div>
+  <center><p style='background-color:#1a1a1a'>Copyright @SearchYourSlot</p></center>
+</div>
+
+</body>
+
+</html>
